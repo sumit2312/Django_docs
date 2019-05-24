@@ -1,0 +1,10 @@
+// Forgot Password 
+sudo mysql_secure_installation
+
+
+--sudo mysql
+  *CREATE USER 'admin'@'localhost' IDENTIFIED BY 'Pass@12345'
+  *create database polls;
+  *GRANT ALL ON polls.* TO 'admin'@'localhost';
+
+-SHOW DATABASES
